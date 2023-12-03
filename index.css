@@ -1,0 +1,44 @@
+/* Home page styling*/
+/* navbar styling */
+.navbar{
+background-color: rgb(120, 47, 64);
+display: flex;
+justify-content: space-between;
+align-items:right;
+font-size: 20px;
+height: 80px;
+}
+.navbar ul{
+display: flex;}
+
+.navbar li{
+padding: 10px;
+}
+
+/* unordered list styling */
+ul{
+list-style: none;}
+
+/* Image styling */
+img {
+height: 200px;
+width: 200px;
+}
+body {
+background-color: bisque;    
+}
+
+/* footer styling */
+.footer {
+background-color: #742727;
+
+}
+
+
+
+/* about page styling*/
+
+
+
+
+/* portfolio page styling*/
