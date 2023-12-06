@@ -1,0 +1,69 @@
+/* Home page styling */
+
+/* navbar styling */
+.navbar {
+    background-color: rgb(120, 47, 64);
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    font-size: 20px;
+    height: 80px;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar li {
+    padding: 10px;
+  }
+  
+  /* unordered list styling */
+  ul {
+    list-style: none;
+  }
+  
+  /* Image styling */
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  body {
+    background-color: bisque;
+  }
+  
+  /* footer styling */
+  .footer {
+    background-color: #742727;
+  }
+  
+  /* Media Queries for Mobile Devices */
+  
+  /* Mobile devices with a maximum width of 767px */
+  @media only screen and (max-width: 767px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar li {
+      padding: 10px 0; /* Adjust padding for better spacing on smaller screens */
+    }
+  
+    img {
+      height: 150px; /* Adjust image size for smaller screens */
+      width: 150px;
+    }
+  }
+  
+  /* Tablet devices with a minimum width of 768px and maximum width of 991px */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add specific styles for tablets if needed */
+  }
+  
+  /* Larger screens with a minimum width of 992px */
+  @media only screen and (min-width: 992px) {
+    /* Add specific styles for larger screens if needed */
+  }
+  
